@@ -1,0 +1,14 @@
+delta GreenColor requires Adudu {
+	modifies elhamdi.Adudu {
+		adds private String color;
+		
+		adds public void setColor() {
+			this.color = "Green";
+			System.out.println("Color set to Green");
+		}
+		
+		adds public String getColor() {
+			return this.color;
+		}
+	}
+}
