@@ -1,0 +1,13 @@
+delta ForwardBackward {
+	modifies jab.module.Movement {
+		adds int moveDirection = 1;
+		
+		modifies move() {
+			if (bot.getTime() % 30 < 15) {
+				moveDirection *= -1;
+			}
+	
+			bot.setAhead(150 * moveDirection);
+		}
+	}
+}
