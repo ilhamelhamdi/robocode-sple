@@ -33,3 +33,6 @@ MouseClickGun:
 
 BurstFireGun:
 <decore/BurstFireGun.decore>
+
+SinusGun:
+<decore/SinusGun.decore>
