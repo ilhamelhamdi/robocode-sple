@@ -8,7 +8,6 @@
           <features maxCardinality="1" name="MouseRadar"/>
         </groups>
       </features>
-
       <features minCardinality="1" maxCardinality="1" name="Targeting">
         <groups minCardinality="1" maxCardinality="1">
           <features maxCardinality="1" name="HeadOnTargeting"/>
@@ -25,6 +24,7 @@
               <features maxCardinality="1" name="Cornering"/>
               <features maxCardinality="1" name="Line"/>
               <features maxCardinality="1" name="ForwardBackward"/>
+              <features maxCardinality="1" name="Squaring"/>
             </groups>
           </features>
         </groups>
