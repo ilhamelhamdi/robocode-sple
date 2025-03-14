@@ -8,30 +8,39 @@
           <features maxCardinality="1" name="MouseRadar"/>
         </groups>
       </features>
+
+      <features minCardinality="1" maxCardinality="1" name="Targeting">
+        <groups minCardinality="1" maxCardinality="1">
+          <features maxCardinality="1" name="HeadOnTargeting"/>
+          <features maxCardinality="1" name="LinearTargeting"/>
+          <features maxCardinality="1" name="MouseTargeting"/>
+        </groups>
+      </features>
       <features minCardinality="1" maxCardinality="1" name="Movement">
         <groups minCardinality="1" maxCardinality="1">
           <features maxCardinality="1" name="NoMovement"/>
+          <features maxCardinality="1" name="KeyboardMovement"/>
           <features maxCardinality="1" name="AutoMovement">
             <groups minCardinality="1" maxCardinality="1">
+              <features maxCardinality="1" name="Cornering"/>
               <features maxCardinality="1" name="Line"/>
               <features maxCardinality="1" name="ForwardBackward"/>
             </groups>
           </features>
         </groups>
       </features>
-      <features maxCardinality="1" name="Targeting">
+      <features minCardinality="1" maxCardinality="1" name="SelectEnemy">
         <groups minCardinality="1" maxCardinality="1">
-          <features maxCardinality="1" name="LinearTargeting"/>
-        </groups>
-      </features>
-      <features maxCardinality="1" name="SelectEnemy">
-        <groups minCardinality="1" maxCardinality="1">
+          <features maxCardinality="1" name="WeakestSelectEnemy"/>
+          <features maxCardinality="1" name="StrongestSelectEnemy"/>
           <features maxCardinality="1" name="ClosestSelectEnemy"/>
         </groups>
       </features>
-      <features maxCardinality="1" name="Gun">
+      <features minCardinality="1" maxCardinality="1" name="Gun">
         <groups minCardinality="1" maxCardinality="1">
+          <features maxCardinality="1" name="MaximumPowerGun"/>
           <features maxCardinality="1" name="NoFireGun"/>
+          <features maxCardinality="1" name="MouseClickGun"/>
         </groups>
       </features>
     </groups>
