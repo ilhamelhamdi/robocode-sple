@@ -24,6 +24,7 @@
               <features maxCardinality="1" name="Cornering"/>
               <features maxCardinality="1" name="Line"/>
               <features maxCardinality="1" name="ForwardBackward"/>
+              <features maxCardinality="1" name="Squaring"/>
             </groups>
           </features>
         </groups>

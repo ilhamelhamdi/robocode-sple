@@ -1,0 +1,30 @@
+delta Squaring {
+    modifies jab.module.Movement {
+        adds import jab.module.Module;
+
+        adds private int step = 0; // Menyimpan langkah pergerakan
+
+        modifies move() {
+            // Jarak tempuh setiap sisi kotak
+            double squareSize = 50; 
+
+            // Gerakan dalam bentuk kotak
+            switch (step % 4) {
+                case 0:
+                    bot.setAhead(squareSize); // Maju
+                    break;
+                case 1:
+                    bot.setTurnRight(90); // Belok kanan 90 derajat
+                    break;
+                case 2:
+                    bot.setAhead(squareSize); // Maju
+                    break;
+                case 3:
+                    bot.setTurnRight(90); // Belok kanan 90 derajat
+                    break;
+            }
+
+            step++; // Lanjut ke langkah berikutnya
+        }
+    }
+}

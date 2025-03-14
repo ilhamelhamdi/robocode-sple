@@ -36,3 +36,18 @@ BurstFireGun:
 
 SinusGun:
 <decore/SinusGun.decore>
+
+HeadOnTargeting:
+<decore/HeadOnTargeting.decore>
+
+Cornering:
+<decore/Cornering.decore>
+
+WeakestSelectEnemy:
+<decore/WeakestSelectEnemy.decore>
+
+MaximumPowerGun:
+<decore/MaximumPowerGun.decore>
+
+Squaring:
+<decore/Squaring.decore>
