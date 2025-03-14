@@ -30,3 +30,6 @@ StrongestSelectEnemy:
 
 MouseClickGun:
 <decore/MouseClickGun.decore>
+
+SinusGun:
+<decore/SinusGun.decore>
