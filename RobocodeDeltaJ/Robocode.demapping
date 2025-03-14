@@ -31,5 +31,8 @@ StrongestSelectEnemy:
 MouseClickGun:
 <decore/MouseClickGun.decore>
 
+BurstFireGun:
+<decore/BurstFireGun.decore>
+
 SinusGun:
 <decore/SinusGun.decore>
