@@ -1,8 +1,0 @@
-delta Adudu {
-	adds {
-		package elhamdi;
-		
-		public class Adudu {
-		}
-	}
-}
