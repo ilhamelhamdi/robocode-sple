@@ -3,3 +3,18 @@ NoMovement:
 
 SpinningRadar:
 <decore/SpinningRadar.decore>
+
+LinearTargeting:
+<decore/LinearTargeting.decore>
+
+ClosestSelectEnemy:
+<decore/ClosestSelectEnemy.decore>
+
+Line:
+<decore/Line.decore>
+
+ForwardBackward:
+<decore/ForwardBackward.decore>
+
+NoFireGun:
+<decore/NoFireGun.decore>

@@ -1,0 +1,16 @@
+ configuration delta "ForwardBackward"
+	dialect <http://www.emftext.org/java>
+		modifies <../src/jab/module/Movement.java>
+		{
+	addMember(<class:jab.module.Movement>, "int moveDirection = 1;
+");
+	modifyStatementListContainer(<method:jab.module.Movement.move()>, "public void move() {
+			if (bot.getTime() % 30 < 15) {
+				moveDirection *= -1;
+			}
+	
+			bot.setAhead(150 * moveDirection);
+	}
+", "ForwardBackward", false);
+	}
+	
